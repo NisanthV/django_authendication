@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    transition: 1s;
+}
+nav{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    align-items: center;
+}
+nav ol{
+    display: flex;
+    
+}
+.ls li{
+    display: flex;
+    list-style-type: none;
+    padding: 0px 10px;
+    
+}
+.ls li a{
+    text-decoration: none;
+    color: white;
+}
+.ls li a:hover{
+    padding: 10px 5px;
+    background-color: black;
+    border-radius: 25%;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(230, 73, 196);
+    color: wheat;
+    border-radius: 25px;
+   
+}
+button:hover{
+   
+    color: black;
+    background: white;
+}

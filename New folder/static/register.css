@@ -1,0 +1,36 @@
+
+
+.register{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: red;
+
+}
+.register:hover{
+    background: orangered;
+    border-radius: 20%;
+}
+ul{
+    list-style-type: none;
+    padding: 40px 15px;
+
+}
+/*ol li{
+    background: green;
+}*/
+input:hover{
+    background: blueviolet;
+    padding: 5px 5px;
+}
+
+
+
+
+
+
+
+
+

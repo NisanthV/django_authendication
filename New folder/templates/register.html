@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'register.css' %}">
+    <div class="register">
+        <form method="POST">
+            <ol>
+                <li>
+                    <label for="username">UserName:</label>
+                    <input type="text" name="username">
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email">
+                </li>
+                <li>    
+                    <label for="Password">Password:</label>
+                    <input type="password" name="Password">
+                </li>
+                <input type="submit" name="Submit">
+            </ol>
+        </form>
+    </div>
+{% endblock %}
+</html>
